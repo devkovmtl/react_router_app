@@ -1,5 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home, About, Products, Error, SharedLayout } from './pages';
+import {
+  Home,
+  About,
+  Products,
+  Error,
+  SharedLayout,
+  SingleProduct,
+} from './pages';
 
 function App() {
   return (
@@ -9,6 +16,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='products' element={<Products />} />
+          <Route path='products/:productId' element={<SingleProduct />} />
           <Route path='*' element={<Error />} />
         </Route>
       </Routes>
