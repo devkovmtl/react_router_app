@@ -4,8 +4,8 @@ const About = () => {
   return (
     <section className='section'>
       <h2>About</h2>
-      <Link to='/about' className='btn'>
-        About
+      <Link to='/' className='btn'>
+        Home
       </Link>
     </section>
   );
