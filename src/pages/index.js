@@ -6,3 +6,5 @@ export { default as Login } from './Login';
 export { default as Products } from './Products';
 export { default as SingleProduct } from './SingleProduct';
 export { default as SharedLayout } from './SharedLayout';
+export { default as SharedProductLayout } from './SharedProductLayout';
+export { default as ProtectedRoute } from './ProtectedRoute';
