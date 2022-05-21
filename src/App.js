@@ -4,7 +4,6 @@ import { Home, About, Products, Error } from './pages';
 function App() {
   return (
     <BrowserRouter>
-      <nav>Our Nav</nav>
       <Routes>
         <Route path='/' element={<Home />}>
           <Route path='about' element={<About />} />
@@ -15,7 +14,6 @@ function App() {
           <Route path='stats' element={<div>Stats</div>} />
         </Route>
       </Routes>
-      <footer>Our Footer</footer>
     </BrowserRouter>
   );
 }
