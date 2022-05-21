@@ -5,7 +5,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={SharedLayout}>
+        <Route path='/' element={<SharedLayout />}>
           <Route index element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='products' element={<Products />} />
